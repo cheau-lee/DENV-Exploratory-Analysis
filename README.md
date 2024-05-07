@@ -8,15 +8,11 @@ The initial gene expression dataset is based on DNA microarray analysis which ex
 - **`dengue_data.csv`**: Contains gene expression values.
 - **`dengue_metadata.csv`**: Contains sample information.
 
-## Prerequisites
-- **pandas**: Data manipulation.
-- **numpy**: Numerical operations.
-- **scikit-learn**: Principal Component Analysis (PCA).
-- **matplotlib**: Generate visualisations such as volcano plots.
-- **scipy**: Hierarchical Clustering Analysis (HCA) and statistical tests.
-- **seaborn**: Create annotated heatmaps and clustermaps.
+## Getting Started
 
-## Installation
+### Prerequisites
+Before installing the dependencies, ensure you have Python ≥ 3.8 installed on your system.
+### Installation
 1. **Clone the Repository**:
    ```bash
    git clone <https://github.com/cheau-lee/Dengue-Gene-Exploratory-Analysis.git>
@@ -24,10 +20,14 @@ The initial gene expression dataset is based on DNA microarray analysis which ex
 2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
-   
-3. **Run the Notebook of Interest**:
-   ```bash
-   jupyter notebook <notebook_name.ipynb>
+
+### Used Libraries 
+- **pandas**: Data manipulation.
+- **numpy**: Numerical operations.
+- **scikit-learn**: Principal Component Analysis (PCA).
+- **matplotlib**: Generate visualisations such as volcano plots.
+- **scipy**: Hierarchical Clustering Analysis (HCA) and statistical tests.
+- **seaborn**: Create annotated heatmaps and clustermaps.
 
 ## Analysis Notebooks
 ### Overall Exploratory Analysis
@@ -63,10 +63,12 @@ The initial gene expression dataset is based on DNA microarray analysis which ex
 - **Gene Ontology**: Revealed shared processes such as the negative regulation of DNA replication and association with CDC6.
 - **Pathway Enrichment**: For DF, the "CDC6 association with ORC (HAS-68689)" pathway was prominent, implicating a disruption in the initiation of DNA replication. For DHF, the "cell cycle checkpoint R-HAS-69620" pathway was most impacted, suggesting a more profound impairment in cell cycle checkpoints and possibly explaining the severity of the condition.
 
-   
+     
 ## References
 
 1. Kwissa, M., Nakaya, H. I., Onlamoon, N., Wrammert, J., Villinger, F., Perng, G. C., Yoksan, S., Pattanapanyasat, K., Chokephaibulkit, K., Ahmed, R., & Pulendran, B. (2014). **Dengue virus infection induces expansion of a CD14(+)CD16(+) monocyte population that stimulates plasmablast differentiation.** *Cell Host & Microbe*, 16(1), 115–127.
 
 2. World Health Organization. (2023). **Dengue and severe dengue: Fact sheet.** Available at: [https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue](https://www.who.int/news-room/fact-sheets/detail/dengue-and-severe-dengue) [Accessed 10 December 2023].
+
+
 
